@@ -45,10 +45,10 @@ def market_analysis():
     sell_list=     sell_list.sort_values(by="priceToBook", ascending=False)[trade_columns]
     pchange_list = change_list.sort_values(by="change",ascending=True)[trade_columns]
 
-    buy_list.to_csv("Finance-StockMarket/Stock_analysis/buy_list.csv", index=False)
-    hold_list.to_csv("Finance-StockMarket/Stock_analysis/hold_list.csv", index=False)
-    sell_list.to_csv("Finance-StockMarket/Stock_analysis/sell_list.csv", index=False)
-    pchange_list.to_csv("Finance-StockMarket/Stock_analysis/Day_Trading.csv", index=False)
+    buy_list.to_csv("buy_list.csv", index=False)
+    hold_list.to_csv("hold_list.csv", index=False)
+    sell_list.to_csv("sell_list.csv", index=False)
+    pchange_list.to_csv("Day_Trading.csv", index=False)
 
     print("Change List")
     print(pchange_list)
