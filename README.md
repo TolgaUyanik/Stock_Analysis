@@ -29,7 +29,7 @@ This project is a stock market analysis tool designed to analyze stocks listed o
 Run the script to perform market analysis:
 ```bash
 python Stock_Analysis.py
-
+ ```
 The script will output the following CSV files in the project directory:
 
 buy_list.csv: List of stocks recommended for buying.
